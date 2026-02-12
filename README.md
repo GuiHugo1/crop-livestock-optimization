@@ -22,6 +22,7 @@ This project develops a mathematical optimization model to integrate crop rotati
 |----------------------|-----------------------------------------------------------------------------|
 | `/code`              | Python implementation (Gurobi) of the integrated crop-livestock model.      |
 | `/data`              | Input datasets: crop nutrient coefficients, field sizes, cattle numbers.   |
+| `/results`   | Optimization visualization.         |
 | `MGSC_662_Report.pdf`              | Full report (PDF), appendices, and supplementary materials.                 |
 | `README.md`          | This file.                                                                  |
 
@@ -59,7 +60,7 @@ Modern agriculture in Western Canada relies heavily on synthetic fertilizers, wh
 
 ## Visualizations
 - **Rotation Networks**: Compare crop-only vs. integrated scenarios.
-  ![Rotation Network Example](results/rotation_network_integrated.png)
+  ![Rotation Network Example](results/Network_Example.png)
 - **Field-Size Dynamics**: Radar-style plot of crop transitions over 6 years.
 
 **Insights:**
